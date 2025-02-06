@@ -1,0 +1,180 @@
+.navegacao{
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+}
+body{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-position: right bottom, left top;
+    background-repeat: no-repeat, repeat;
+}
+nav{
+    background-color: blue;
+    padding: 20px ; 
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; 
+    display: flex;  
+    border-radius: 5px;
+    justify-content: center;
+}
+.up{
+    font-size: 25px ;
+    text-decoration: none;
+    color: white; 
+    text-shadow: 2px 2px 5px blue;
+}
+.up:hover{
+    background-color:darkblue;
+    padding: 5px;
+    border-radius: 5px;
+    color: aqua;
+}
+.titulo{
+    text-align: center;
+}
+/*<--footer-->*/
+.container-footer{
+    display: flex;
+    flex-direction: row;
+
+}
+.socialPagamentos{
+    display: flex;
+    flex-direction: column;
+    margin-right: 60px;
+}
+.insta{
+    width: 23px;
+    height: 23px;
+}
+body{
+    background-color: rgb(255, 255, 255);
+}
+.instaIcon{
+    margin-right: 10px;
+    text-decoration: none;
+    cursor: pointer;
+}
+.faceIcon{
+    margin-right: 10px;
+    text-decoration: none;
+    cursor: pointer;
+}
+.tiktokIcon{
+    margin-right: 10px;
+    text-decoration: none;
+    cursor: pointer;
+}
+.linkedinIcon{
+    margin-right: 10px;
+    text-decoration: none;
+    cursor: pointer;
+}
+.youtubeIcon{
+    margin-right: 10px;
+    text-decoration: none;
+    cursor: pointer;
+}
+h3{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: medium;
+}
+.pagamento{
+    margin-top: 20px;
+}
+.pix{
+    width: 76px;
+    margin-right: 15px;
+    
+}
+.visa{
+    width: 48px;
+    margin-right: 15px;
+}
+.mastercard{
+    width: 50px;
+    margin-right: 15px;
+}
+.elo{
+    width: 76px;
+    margin-right: 15px;
+}
+.american{
+    width: 76px;
+}
+.boleto{
+    width: 67px;
+    margin-top: 10px;
+}
+.container-selos{
+    display: flex;
+    flex-direction: row;
+}
+.selosCertificados{
+    margin-right: 20px;
+}
+.certificados{
+    display: flex;
+    flex-direction: row;
+}
+.siteseguro{
+    width: 86px;
+    height: 55px;
+    margin-right: 15px;
+}
+.premioepoca{
+    width: 86px;
+    height: 55px;
+    margin-right: 15px;
+}
+.notafiscal{
+    width: 86px;
+    height: 60px;
+    margin-right: 15px;
+}
+.googlesafe{
+    width: 86px;
+    height: 60px;
+    margin-right: 15px;
+    margin-top: 15px;
+}
+.nortonsecured{
+    width: 86px;
+    height: 60px;
+    margin-right: 15px;
+    margin-top: 15px;
+}
+.container-politica{
+    display: flex;
+    flex-direction: row;
+    margin-right: 25px;
+}
+ul{
+    list-style-type: none;
+}
+li{
+    font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: 15px;
+    font: bold;
+}
+.politicas{
+    margin-right: 50px;
+}
+a{
+    text-decoration: none;
+    color:black;
+}
+h1{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: #0e95af;
+    font-size: 200%;
+    margin-top: 50px;
+}
+.logoVitalMedic{
+    width: 200px;
+    margin-top: 0;
+}
+.nomeplataforma{
+    margin-bottom: 0;
+    border: 0;
+    margin-left: 58px;
+}
